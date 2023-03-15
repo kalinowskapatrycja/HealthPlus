@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Health+</title>
+</head>
+<body>
+    <header>
+        <div>FDM Logo Placeholder</div>
+    </header>
+    <div>
+        <h3>Welcome to Health+!</h3>
+        <p>Health+ is a Wellbeing WebApp, specifically targeted towrds FDM consuktants and internal staff. <br>
+        Health+ will provide fitness, mental health and general wellebing support through features like: trackers, various resources on these topics, <br>
+        forums and a chat(??) platform, where FDM Employees will be able to contact one of the 30 Menatl Health Ambassadors.</p>
+    </div>
+    <div><button>Click here to login!</button></div>
+    <footer>
+        <nav>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms and Conditions</li>
+                <li>FAQs</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </footer>
