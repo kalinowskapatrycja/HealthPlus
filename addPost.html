@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utif-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Post</title>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="top">
+                <li class="t"><a href="home.html">Home</a></li>
+                <li class="t"><a href="projects.html">Projects</a></li>
+                <li class="t"><a href="viewBlog.php">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="post" action="addPost.php" method="POST">
+        <fieldset>
+            <legend>Welcome!<br>You can write your post below!</legend>
+            <p>
+                <input name="title" type="text" placeholder="Enter title">
+            </p>
+            <p>
+                <textarea name="content" rows="15" placeholder="Enter text"></textarea>
+            </p>
+            <div>
+                <button type="submit" onClick="if_empty(event)">Submit</button>
+                <input type="reset" value="Clear">
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <i>Copyright © 2022 Patrycja Kalinowska</i>
+    </footer>
+</body>
+
+</html>
