@@ -20,10 +20,10 @@
     <footer>
         <nav>
             <ul>
-                <li>Privacy</li>
-                <li>Terms and Conditions</li>
-                <li>FAQs</li>
-                <li>Contact</li>
+                <li><a hfref="privacy.html">Privacy</a></li>
+                <li><a href="tandc.html">Terms and Conditions</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html>Contact</a></li>
             </ul>
         </nav>
     </footer>
