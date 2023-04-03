@@ -20,13 +20,13 @@ Health+ is an app made for people who want to get started on focussing on their 
 ###
 
 ## Credit :test_tube:
-Imran Kayani
-Faris Al-Dandal
-Bekim
-Patrycja 
-Aayushi
-Vindiya
-Dana Zerti
+* Imran Kayani
+* Faris Al-Dandal
+* Bekim
+* Patrycja 
+* Aayushi
+* Vindiya
+* Dana Zerti
 
 Functionality 35%
 1. Does the prototype include the functionality to demonstrate at least 6 use-cases?
