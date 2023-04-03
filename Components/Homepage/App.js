@@ -12,14 +12,7 @@ import Chat from "./components/Chat/Chat";
 function App() {
 
   return (
-       { <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Login />} />
-                <Route path='/register' element={<Register />} />
-                <Route path='/dashboard' element={<Home />} />
-                <Route path='/:id/replies' element={<Replies />} />
-            </Routes>
-  </BrowserRouter> }
+       
 
         <div className="container">
             <header> Health + </header>

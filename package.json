@@ -1,6 +1,21 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "react-router-dom": "^6.10.0",
     "run": "^1.4.0",
     "start": "^5.1.0"
-  }
+  },
+  "name": "untitled",
+  "description": "Hello and welcome to our app Health+! Health+ is an app made for people who want to get started on focussing on their mental and physical well-being. This user-friendly application will allow employees of FDM to track their diet, fitness and be able to receive help with their mental health. They will have direct access to 30 trained mental health champions and ambassadors.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
