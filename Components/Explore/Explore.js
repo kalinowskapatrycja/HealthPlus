@@ -1,11 +1,11 @@
 import './Explore.css';
-import Footer from './components/Footer/Footer';
+import Nav from './components/Navigation/nav';
 
 function Explore() {
 
   return (
     <div className="container">
-      {<Footer/>} {/* display the redirection menu only if weather data displayed */}
+      {<Nav/>} {/* display the redirection menu only if weather data displayed */}
     </div>
 
   );
