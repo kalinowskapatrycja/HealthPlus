@@ -1,0 +1,14 @@
+html, body, header, nav, ul, li, footer, div, article, section, aside, a, 
+figcaption, figure, caption, img, h2, h3, h4, h5
+table, thead, tbody, tr, th, td, fieldset, form, label, legend{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    line-height: 1;
+}
