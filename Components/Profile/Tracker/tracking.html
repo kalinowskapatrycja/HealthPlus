@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+<h1>Fitness Tracker</h1>
+<form>
+    <h2>Personal Information:</h2>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" name="height"><br><br>
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" name="weight"><br><br>
+    <input type="button" id="calculateBtn" value="Calculate">
+    <div id="result"></div>  <!-- Box to display the recommended daily calorie intake -->
+</form>
+<form>
+    <h2>Input Your Meal Information:</h2>
+    <label for="foodName">Food Name:</label>
+    <input type="text" id="foodName" name="foodName"><br><br>
+    <label for="calories">Calories:</label>
+    <input type="number" id="calories" name="calories"><br><br>
+    <input type="button" value="Add Meal" onclick="addMeal()"><br><br>
+</form>
+<div>
+    <h2>Exercise Tracking:</h2>
+    <label for="exerciseType">Exercise Type:</label>
+    <input type="text" id="exerciseType" name="exerciseType"><br><br>
+    <label for="duration">Duration (minutes):</label>
+    <input type="number" id="duration" name="duration"><br><br>
+    <input type="button" value="Track Exercise" onclick="trackExercise()"><br><br>
+</div>
+<!--<div>-->
+<!--    <h2>Steps Tracker:</h2>-->
+<!--    <label for="duration">Duration (minutes):</label>-->
+<!--    <input type="number" id="duration" name="duration"><br><br>-->
+<!--    <label for="Number of Steps">Number of Steps:</label>-->
+<!--    <input type="text" id="Number of Steps" name="Number of Steps"><br><br>-->
+<!--    <input type="button" value="Track Steps" onclick="trackExercise()"><br><br>-->
+<!--</div>-->
+<div>
+    <h2>Daily Calories:</h2>
+    <p>Calories Consumed: <span id="caloriesConsumed">0</span></p>
+    <p>Calories Burned: <span id="caloriesBurned">0</span></p>
+    <p>Net Calories: <span id="netCalories">0</span></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
