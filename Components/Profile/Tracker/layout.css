@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form, div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+  }
+
+/* Style for the result box */
+#result {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
