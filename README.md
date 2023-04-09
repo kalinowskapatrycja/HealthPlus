@@ -25,7 +25,7 @@ Health+ is an app made for people who want to get started on focussing on their 
 * Bekim
 * Patrycja 
 * Aayushi
-* Vindiya
+* Vindhya
 * Dana Zerti
 
 Functionality 35%
