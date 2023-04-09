@@ -39,11 +39,11 @@ header {
     font-size: 14px;
   }
   
-  nav a {
-    color: #333;
+header nav a, header h1 a {
+    color: #ffffff;
     text-decoration: none;
   }
   
-  nav a:hover {
+header nav a:hover, header h1 a:hover {
     color: #777;
   }
