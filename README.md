@@ -22,8 +22,8 @@ Health+ is an app made for people who want to get started on focussing on their 
 ## Credit :test_tube:
 * Imran Kayani
 * Faris Al-Dandal
-* Bekim
-* Patrycja 
+* Bekim 
+* Patrycja Kalinowska
 * Aayushi
 * Vindhya
 * Dana Zerti
