@@ -1,0 +1,51 @@
+h1{
+  font-size: medium;
+}
+
+.main{
+  margin: auto;
+  width: 80%;
+
+} 
+
+h3{
+  display: block;
+  font-size: 2em;
+  color: rgb(130, 121, 121);
+  margin-top: 5em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+p{
+  padding-bottom: 1rem;
+  color: rgb(130, 121, 121);
+}
+
+button{
+  padding: 0.2rem;
+  border-radius: 10%;
+  background-color: rgb(207, 238, 207);
+  border-color: rgb(185, 242, 185);
+}
+.button{
+  text-align: center;
+}
+.b{
+  color: black;
+}
+
+footer {
+  padding: 1rem;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
+
+a{
+  text-decoration: none;
+  color: white;
+}
+

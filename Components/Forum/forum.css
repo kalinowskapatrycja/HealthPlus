@@ -1,0 +1,126 @@
+form {
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  select, input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  select:focus, input[type="text"]:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  button[type="submit"], input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  button[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #777;
+  }
+  
+textarea,input{
+    max-width: 96%;
+}
+
+  #posts {
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  #posts h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #posts p {
+    margin-bottom: 10px;
+  }
+  
+  #posts hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  footer {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+
+#posts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#posts > div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#posts h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#posts p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#posts hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
