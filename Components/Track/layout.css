@@ -47,6 +47,7 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 input[type="button"]:hover,
@@ -101,4 +102,12 @@ div {
     margin: 0 auto;
   }
 
+  .exercise-intensity,
+  .duration {
+    margin-bottom: 30px;
+  }
+
+  .calculate-btn {
+    margin-top: 40px;
+  }
 }
