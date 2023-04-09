@@ -81,7 +81,7 @@ if (isset($_POST['enter'])) {
                 var id = 'undefined';
                 var oldId = null;
                 var isRunLoadLog = false;
-                //If user submits the form
+                //Submit button
                 $("#submitmsg").click(function() {
                     var clientmsg = $("#usermsg").val();
                     $("#usermsg").val('');
@@ -90,7 +90,6 @@ if (isset($_POST['enter'])) {
                         type: 'POST',
                         url: 'post.php',
                         data: {text: clientmsg},
-                        //cache: false,
                         async: true,
                         success: function(data) {
                             if (!isRunLoadLog) {
@@ -113,7 +112,6 @@ if (isset($_POST['enter'])) {
                         url: 'server.php',
                         data: {id: id},
                         dataType: 'json',
-                        //cache: false,
                         async: true,
                         success: function(data) {
                             id = data.id;
@@ -140,9 +138,9 @@ if (isset($_POST['enter'])) {
                     });
                 }
                 loadLog();
-                setInterval(loadLog, <?php echo getSetup('interval') ?>);	//Reload file every 2.5 seconds
+                setInterval(loadLog, <?php echo getSetup('interval') ?>);	
 
-                //If user wants to end session
+                //End session button
                 $("#exit").click(function() {
                     var exit = confirm("Are you sure you want to end the session?");
                     if (exit == true) {
