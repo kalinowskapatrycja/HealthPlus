@@ -30,13 +30,7 @@ h1{
     color: black;
   }
   
-  footer {
-    padding: 1rem;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  } 
+
   
   a{
     text-decoration: none;
