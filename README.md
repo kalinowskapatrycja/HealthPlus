@@ -1,11 +1,13 @@
 # Health+ :globe_with_meridians:
 Hello and welcome to our app Health+!
-Health+ is an app made for people who want to get started on focussing on their mental and physical well-being. This user-friendly application will allow employees of FDM to track their diet, fitness and be able to receive help with their mental health. They will have direct access to 30 trained mental health champions and ambassadors.
+Health+ is an app made for people who want to get started on focussing on their mental and physical well-being. This user-friendly application will allow employees of FDM to track their diet, fitness and be able to receive help with their mental health. They will have direct access to 30 trained mental health champions and ambassadors. This is a group project created by 7 Queen Mary University London Computer Science students (Credits below)!
 
 ## Getting Started :technologist:
+Cloning the code from this github repoisity will help you get started if you want to also access our code and or make contributions.
 
 ## Our features :sparkles:
 ### Track
+Track is split into 2 categories Mood and Fitness. Mood track is a functionality in which a user input how they are feeling that day and our database allows the user to access their data collected over time to see how they are emotionally doing. Similarly to fitness, the user is able to input the amount of steps they made during the day and the food they ate. Our desktop app will calculate the estimated calories the user gained or lost that day and keep this data for the user to look at in the future. This is a great form of self reflection and getting back into a routine at the end of a day.
 
 #### Mood :sunglasses:
 
@@ -14,43 +16,19 @@ Health+ is an app made for people who want to get started on focussing on their 
 #### Meal :apple:
 
 ### Forum :speech_balloon:
+This section is for the users looking to have a specific question asked or are just looking for some mental health/ fitness related entertainment through discussions with other interested individuals. The forum is filtered so that the user can access a specific category, whether it is meals, fitness or mental wellbeing. (Idk what else to add)
 
 ### Chat :thought_balloon:
+Chat with FDM's mental health ambassador. This functionality allows the user to have access to a mental health ambassador whom they can discuss their troubles with...
 
-###
+### Contact :phone:
+This page contains many different lines for the user to use in case of emergency or what not. These lines include mental health crisis helplines such as the suicide prevention line, LGBTQ+ line and so on...
 
 ## Credit :test_tube:
+* Dana Zerti
 * Imran Kayani
 * Faris Al-Dandal
-* Bekim 
+* Bekim Gerguri
 * Patrycja Kalinowska
-* Aayushi
-* Vindhya
-* Dana Zerti
-
-Functionality 35%
-1. Does the prototype include the functionality to demonstrate at least 6 use-cases?
-2. Did the group introduce the application and use-cases clearly?
-3. Were the demonstrated use-cases key ones for such an application (might include login)?
-4. How complete was the use-case demonstrations (expected steps performed)?
-5. How intuitive was the use cases (easy to perform and no unnecessary or extra steps)?
-
-GUI 20%
-6. Does the GUI allow entering the required inputs for use-cases?
-7. Does the GUI display the results correctly?
-8. Is the GUI intuitive for such an application (required elements such as buttons, text boxes
-and labels are available and all visible)?
-
-Execution 30%
-9. Does the prototype function as expected (no crashes or unexpected behaviour)?
-10. If unexpected behaviour occurred during presenatation, is this unexpected behaviour
-recorded in the acceptance tests?
-11. Did the group explain the reason for the unexpected behaviour?
-12. Does the prototype perform as expected (no long delays or stops)?
-
-Acceptance Tests 15%
-13. Did the group provide an acceptance test document?
-14. Does the test document follow the correct format?
-15. Does the document include tests covering at least 5 use-cases?
-16. Does the document include positive and negative tests for all use-cases?
-17. Did you (or the group) follow the tests in their demonstration?
+* Aayushi Oza
+* Vindhya Makkuni
