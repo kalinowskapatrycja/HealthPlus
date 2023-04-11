@@ -1,0 +1,49 @@
+h1{
+    font-size: medium;
+  }
+  
+  .main{
+    margin: auto;
+    width: 80%;
+  
+  } 
+  
+  h3{
+    display: block;
+    font-size: 2em;
+    color: rgb(130, 121, 121);
+    margin-top: 5em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  p{
+    padding-bottom: 1rem;
+    color: rgb(130, 121, 121);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+.pageinfo{
+  display: flex;
+  text-align: center;
+}
+.track{
+    outline: auto;
+    width: 25%;
+    outline-color:rgb(130, 121, 121);
+    float: left;
+    margin-left: 30px;
+    padding-left: 0.3rem;
+}
+
+.articles{
+    outline: auto;
+    width: 25%;
+    outline-color:rgb(130, 121, 121);
+    color:rgb(130, 121, 121);
+    float: right;
+    padding-left: 0.3rem;
+}
