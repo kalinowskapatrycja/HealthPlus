@@ -75,3 +75,13 @@ function calculateCalories() {
 
   document.getElementById("result").innerHTML = "Your maintenance daily calorie intake is: " + calories.toFixed(2) + " calories. " + message;
 }
+
+function updateTracker() {
+  var caloriesConsumed = document.getElementById("caloriesConsumed").textContent;
+  var caloriesBurned = document.getElementById("caloriesBurned").textContent;
+  var netCalories = document.getElementById("netCalories").textContent;
+
+  var url = "../homepage/home.html" + "?caloriesConsumed=" + caloriesConsumed + "&caloriesBurned=" + caloriesBurned + "&netCalories=" + netCalories;
+  window.location.href = url;
+}
+
