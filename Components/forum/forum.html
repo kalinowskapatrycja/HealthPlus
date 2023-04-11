@@ -30,7 +30,7 @@
             </div>
         </div>
     </header>
-    <form>
+    <form class="forum-post">
         <fieldset>
             <legend>Forum</legend>
             <p>
@@ -60,34 +60,66 @@
     <div id="posts"></div>
 
 <script>
-    const form = document.querySelector('form');
-    const postsContainer = document.querySelector('#posts');
+    
+const form = document.querySelector('form');
+const postsContainer = document.querySelector('#posts');
 
-    form.addEventListener('submit', (event) => {
-        event.preventDefault(); // prevent the form from submitting normally
+form.addEventListener('submit', (event) => {
+    event.preventDefault(); 
 
-        // Get the form values
-        const category = event.target.elements.category.value;
-        const title = event.target.elements.title.value;
-        const content = event.target.elements.content.value;
+    const category = event.target.elements.category.value;
+    const title = event.target.elements.title.value;
+    const content = event.target.elements.content.value;
 
-        // Create a new post element
-        const postElement = document.createElement('div');
-        postElement.innerHTML = `
-            <h3>${title}</h3>
-            <p>Category: ${category}</p>
-            <p>${content}</p>
-            <hr>
-        `;
+    const postElement = document.createElement('div');
+    postElement.innerHTML = `
+        <h3>${title}</h3>
+        <p>Category: ${category}</p>
+        <p>${content}</p>
+        <button class="reply-btn">See Replies</button>
+        <div style="display:none;">
+            <form class="reply-form">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <textarea name="content" placeholder="Your reply" required></textarea><br>
+                <button type="submit">Submit reply</button>
+            </form>
+        </div>
+        <hr>
+    `;
 
-        // Add the new post element to the posts container
-        postsContainer.appendChild(postElement);
+    postsContainer.appendChild(postElement);
 
-        // Reset the form
-        event.target.reset();
-    });
+    event.target.reset();
+});
+
+postsContainer.addEventListener('click', (event) => {
+    if (event.target.classList.contains('reply-btn')) {
+        const replyForm = event.target.nextElementSibling;
+        replyForm.style.display = replyForm.style.display === 'none' ? 'block' : 'none';
+    }
+});
+
+postsContainer.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = event.target.elements.name.value;
+    const content = event.target.elements.content.value;
+
+    const replyElement = document.createElement('div');
+    replyElement.innerHTML = `
+        <p><strong>${name}:</strong> ${content}</p>
+    `;
+
+    const postElement = event.target.parentElement;
+    const hr = postElement.querySelector('hr');
+
+    postElement.insertBefore(replyElement, hr);
+
+    event.target.reset();
+});
+
 </script>
-
+<div class="footer-spacer"></div>
     <footer>
         <nav>
             <ul>

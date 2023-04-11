@@ -33,3 +33,7 @@ footer nav a, footer h1 a {
 footer nav a:hover, footer h1 a:hover {
     color: #777;
   }
+
+.footer-spacer{
+  margin-bottom: 5rem;
+}

@@ -1,10 +1,17 @@
-form {
+.forum-post, .reply-form {
     max-width: 600px;
-    margin: 100px auto 0;
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 5px;
   }
+  .forum-post{
+    margin: 100px auto 0;
+  }
+  .reply-form {
+    margin: 1rem auto 1rem;
+
+  }
+
   
   fieldset {
     border: none;
@@ -38,7 +45,7 @@ form {
     box-shadow: 0 0 5px #ccc;
   }
   
-  button[type="submit"], input[type="reset"] {
+  button[type="submit"], input[type="reset"], .reply-btn{
     display: inline-block;
     padding: 10px 20px;
     border: none;
@@ -55,7 +62,7 @@ form {
     margin-left: 10px;
   }
   
-  button[type="submit"]:hover, input[type="reset"]:hover {
+  button[type="submit"]:hover, input[type="reset"]:hover, .reply-btn:hover {
     background-color: #777;
   }
   
