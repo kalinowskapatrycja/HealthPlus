@@ -32,3 +32,8 @@
 .buttons a:hover {
     background-color: #03a500;
 }
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
