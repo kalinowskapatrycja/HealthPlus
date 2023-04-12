@@ -1,3 +1,4 @@
+/*
 h1{
     font-size: medium;
   }
@@ -49,4 +50,44 @@ h1{
     vertical-align: top;
     padding-bottom: 2%;
     margin-bottom: 2%;
+}
+*/
+
+.main {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.pageinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 45rem;
+  margin:15rem auto;
+}
+
+#trackinfo{
+  padding: 1rem;
+}
+
+.articles a {
+  color: rgb(0, 0, 204);
+  text-decoration: none;
+}
+
+.articles{
+  padding-top:0.5rem;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}
+
+#trackinfo {
+  background-color: #eee;
+  border: 1px solid #ccc;
 }
