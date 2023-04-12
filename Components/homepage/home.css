@@ -53,25 +53,46 @@ h1{
 }
 */
 
-.main {
-  text-align: center;
-  background-color: #f2f2f2;
-  padding: 20px;
+h2{
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
 }
 
-.pageinfo {
+h3{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+
+.main{
+  margin: auto;
+  max-width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  width: 45rem;
-  margin:15rem auto;
 }
 
-#trackinfo{
+.trackers {
+  border: 1px solid #ccc;
   padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+.articles {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+
+.articles, .trackers {
+  width:45%;
+  font-size: 150%;
 }
 
 .articles a {
@@ -79,15 +100,7 @@ h1{
   text-decoration: none;
 }
 
-.articles{
-  padding-top:0.5rem;
-}
-
 .articles a:hover {
   text-decoration: underline;
 }
 
-#trackinfo {
-  background-color: #eee;
-  border: 1px solid #ccc;
-}

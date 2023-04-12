@@ -10,7 +10,7 @@ var sleepQuality = sessionStorage.getItem("sleepQuality");
 if (currentMood === null && stressLevel === null && sleepQuality === null) {
     currentMood = "Tracker Incomplete";
     stressLevel = "Tracker Incomplete";
-    sleepQuality = "Tracker Incomplete";
+    sleepQuality = "Tracker Incomplete<br>";
   }
 
   if (caloriesConsumed === null && caloriesBurned === null && netCalories === null) {
@@ -20,12 +20,12 @@ if (currentMood === null && stressLevel === null && sleepQuality === null) {
 }
 
 
-var printInfo = "Track Summary"+"<br>";
-printInfo += "Current Mood: "+currentMood+"<br>";
-printInfo += "Stress Level: "+stressLevel+"<br>";
-printInfo += "Sleep Quality: "+sleepQuality+"<br>";
-printInfo += "Calories Consumed: "+caloriesConsumed+"<br>";
-printInfo += "Calories Burned: "+caloriesBurned+"<br>";
-printInfo += "Net Calories: "+netCalories+"<br>";
+var printInfo = "<h3>Track Summary</h3><br>";
+printInfo += "<b>Current Mood:</b> "+currentMood+"<br>";
+printInfo += "<b>Stress Level:</b> "+stressLevel+"<br>";
+printInfo += "<b>Sleep Quality:</b> "+sleepQuality+"<br>";
+printInfo += "<b>Calories Consumed:</b> "+caloriesConsumed+"<br>";
+printInfo += "<b>Calories Burned:</b> "+caloriesBurned+"<br>";
+printInfo += "<b>Net Calories:</b> "+netCalories+"<br>";
 
 document.getElementById("trackinfo").innerHTML = printInfo;
