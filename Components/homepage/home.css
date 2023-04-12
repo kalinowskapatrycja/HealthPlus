@@ -1,0 +1,52 @@
+h1{
+    font-size: medium;
+  }
+  
+  .main{
+    margin: auto;
+    width: 80%;
+  
+  } 
+  
+  h3{
+    display: block;
+    font-size: 2em;
+    color: rgb(130, 121, 121);
+    margin-top: 5em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  p{
+    padding-bottom: 1rem;
+    color: rgb(130, 121, 121);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+.pageinfo{
+
+  text-align: center;
+}
+.track{
+    outline: auto;
+    width: 25%;
+    outline-color:rgb(130, 121, 121);
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 2.85%;
+    margin-bottom: 2.85%;
+}
+
+.articles{
+    outline: auto;
+    width: 25%;
+    outline-color:rgb(130, 121, 121);
+    color:rgb(130, 121, 121);
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
