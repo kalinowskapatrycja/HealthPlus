@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="../../reset.css" type="text/css" />
+    <link rel="stylesheet" href="../../header.css" type="text/css" />
+    <link rel="stylesheet" href="../../footer.css" type="text/css" />
+    <link rel="stylesheet" href="../footer_pages.css" type="text/css" />
+    <link rel="stylesheet" href="feedback.css" type="text/css" />
+
+
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+                <img src="../../assets/FDMlogo.png" alt="FDM logo" height="30">
+            <div class="header-text">
+                <h1><a href="../../homepage/home.html">Health+</a></h1>
+            </div>
+            <div>
+            </div>
+        </div>
+    </header>
+ 
+
+    <div class="main">
+        <h3>Health+ Feedback Form</h3>
+        <p>Thank you for using Health+! Your feedback is important to us and will help us improve.</p>
+    </div>
+   
+    <form id="feedbackform" action="../../homepage/home.html" method="post">
+    <div class="feedbackquestions">
+   
+        <label for="mood-tracker">On a scale of 1-5, how would you rate your experience with the Mood Tracker?</label>
+        <select id="mood-tracker" name="mood-tracker">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+        <label for="mood-tracker-feedback">Please provide any additional feedback about the Mood Tracker:</label>
+        <textarea id="mood-tracker-feedback" name="mood-tracker-feedback"></textarea>
+
+        <label for="fitness-tracker">On a scale of 1-5, how would you rate your experience with the Fitness Tracker?</label>
+        <select id="fitness-tracker" name="fitness-tracker">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <label for="fitness-tracker-feedback">Please provide any additional feedback about the Fitness Tracker:</label>
+        <textarea id="fitness-tracker-feedback" name="fitness-tracker-feedback"></textarea>
+    
+   
+   
+        <label for="forum">On a scale of 1-5, how would you rate your experience with the Forum?</label>
+        <select id="forum" name="forum">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <label for="forum-feedback">Please provide any additional feedback about the Forum:</label>
+        <textarea id="forum-feedback" name="forum-feedback"></textarea>
+    
+        <label for="chat">On a scale of 1-5, how would you rate your experience with the Chat feature?</label>
+        <select id="chat" name="chat">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+        <label for="chat-feedback">Please provide any additional feedback about the Chat feature:</label>
+        <textarea id="chat-feedback" name="chat-feedback"></textarea>
+    
+        <label for="overall-satisfaction">On a scale of 1-5, how satisfied are you with Health+ overall?</label>
+        <select id="overall-satisfaction" name="overall-satisfaction">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+        <label for="overall-feedback">Please provide any additional feedback about Health+:</label>
+        <textarea id="overall-feedback" name="overall-feedback"></textarea>
+    
+    <button type="submit">Submit</button>
+    </div>
+    <script src="feedback.js"></script>
+    </form>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="priv.html">Privacy</a></li>
+                <li><a href="../tc/tandc.html">Terms and Conditions</a></li>
+                <li><a href="../faq/faqs.html">FAQs</a></li>
+                <li><a href="../contact/contact.html">Contact the Team</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+

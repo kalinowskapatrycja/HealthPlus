@@ -1,0 +1,53 @@
+.feedbackquestions {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto 50px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedbackquestions label {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.feedbackquestions label select {
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.feedbackquestions textarea {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.feedbackquestions button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.feedbackquestions button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
