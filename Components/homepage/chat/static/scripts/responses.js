@@ -11,6 +11,8 @@ function getBotResponse(input) {
         return "Talk to you later!";
     } else if (input.includes("bye")) {
         return "Talk to you later!";
+    } else if (input.includes("Heart")) {
+        return "Thanks!";
     } else {
         return "Can you re-word that?";
     }
