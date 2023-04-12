@@ -1,13 +1,12 @@
-var data = window.location.search;
-var params = new URLSearchParams(data);
-console.log(params);
 
-var currentMood = params.get("mental-health");
-var stressLevel = params.get("stress-level");
-var sleepQuality = params.get("sleep-quality");
-var caloriesConsumed = params.get('caloriesConsumed');
-var caloriesBurned = params.get('caloriesBurned');
-var netCalories = params.get('netCalories');
+
+var currentMood = sessionStorage.getItem("mental-health");
+var stressLevel = sessionStorage.getItem("stress-level");
+var sleepQuality = sessionStorage.getItem("sleep-quality");
+
+var caloriesConsumed = sessionStorage.getItem('caloriesConsumed');
+var caloriesBurned = sessionStorage.getItem('caloriesBurned');
+var netCalories = sessionStorage.getItem('netCalories');
     
 if (currentMood === null && stressLevel === null && sleepQuality === null) {
     currentMood = 'Tracker Incomplete';
