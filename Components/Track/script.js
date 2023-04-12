@@ -81,6 +81,10 @@ function updateTracker() {
   var caloriesBurned = document.getElementById("caloriesBurned").textContent;
   var netCalories = document.getElementById("netCalories").textContent;
 
+  sessionStorage.setItem("caloriesConsumed", caloriesConsumed);
+  sessionStorage.setItem("caloriesBurned", caloriesBurned);
+  sessionStorage.setItem("netCalories", netCalories);
+
   var url = "../homepage/home.html" + "?caloriesConsumed=" + caloriesConsumed + "&caloriesBurned=" + caloriesBurned + "&netCalories=" + netCalories;
   window.location.href = url;
 }
