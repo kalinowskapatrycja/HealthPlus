@@ -24,17 +24,17 @@
 </header>
 <body>
     <div class="login-form">
-        <form action="../homepage/home.html">
+        <form action="../homepage/home.html" onsubmit="return login()">
         <fieldset>
             <legend>Sign in to Health+</legend>
             <section>
             <p>
                 <label>Username</label><br/>
-                <input type="username" name="username" placeholder="Username" required/>
+                <input type="username" id="username" name="username" placeholder="Username" required/>
             </p>
             <p>
                 <label>Password</label><br/>
-                <input type="password" name="password" placeholder="Password" minlength="8" required
+                <input type="password" id="password" name="password" placeholder="Password" minlength="8" required
                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}" title="Must contain at least 8 characters,
                 one uppercase and lower case letter and at least one number."/>
                 <nav><p>Forgot password?</p></nav>
@@ -44,6 +44,21 @@
           </section>
         </fieldset>
     </form>
+    <script>
+        function login(){
+        var logged;
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        
+        if(username == "fdmemployee" && password == "Queenmary2023"){
+          logged = true;
+        }else{ 
+          logged = false;
+          alert("Username or password do not match.");
+        }
+        return logged;
+      }
+    </script>
 </div>
     <footer>
         <nav>
